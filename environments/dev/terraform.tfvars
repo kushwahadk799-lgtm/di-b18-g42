@@ -8,6 +8,10 @@ rg = {
     name     = "RGCJ_2"
     location = "central India"
   }
+  RG3 = {
+    name     = "RGCJ_3"
+    location = "central India"
+  }
 }
 
 vnets = {
@@ -31,7 +35,7 @@ subnets = {
     name                 = "backend-subnet-cj"
     resource_group_name  = "RGCJ_1"
     virtual_network_name = "vnetCJ1"
-    address_prefixes     = ["10.100.2.0/24"]
+    address_prefixes     = ["10.140.2.0/24"]
   }
 
 }
